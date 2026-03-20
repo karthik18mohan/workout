@@ -124,7 +124,6 @@ export default function DayCard({ date, isToday }: DayCardProps) {
 
   return (
     <motion.div
-      layout
       className={`bg-bg-card rounded-xl border-2 ${borderColor} overflow-hidden transition-colors ${
         isToday ? "ring-1 ring-accent-red/50" : ""
       }`}
